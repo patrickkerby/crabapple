@@ -1,0 +1,50 @@
+/** Import Bootstrap functions */
+@import "~bootstrap/scss/functions";
+
+$theme-colors: (
+  primary: #525ddc
+);
+
+$dark: ( #28303d );
+$mid-green: ( #768d84 );
+$light: ( #e6f3ee );
+
+/** Bootstrap navbar fix (https://git.io/fADqW) */
+$navbar-dark-toggler-icon-bg: none;
+$navbar-light-toggler-icon-bg: none;
+
+/** Typography */
+@font-face {
+  font-family: "Pitch-Medium";
+  font-display: block;
+  src: url ("../fonts/PitchWeb-Medium.eot");
+  src:
+    url ("../fonts/PitchWeb-Medium.eot?#iefix") format("embedded-opentype"),
+    url ("../fonts/PitchWeb-Medium.woff2") format("woff2"),
+    url ("../fonts/PitchWeb-Medium.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Pitch-Medium-Italic";
+  font-display: block;
+  src: url ("../fonts/PitchWeb-MediumItalic.eot");
+  src:
+    url ("../fonts/PitchWeb-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url ("../fonts/PitchWeb-MediumItalic.woff2") format("woff2"),
+    url ("../fonts/PitchWeb-MediumItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Pitch-BoldItalic";
+  font-display: block;
+  src: url ("../fonts/Pitch-BoldItalic.eot");
+  src:
+    url ("../fonts/PitchWeb-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url ("../fonts/PitchWeb-BoldItalic.woff2") format("woff2"),
+    url ("../fonts/PitchWeb-BoldItalic.woff") format("woff");
+}
+
+$medium: "Pitch-Medium", arial, helvetica, sans-serif;
+$bold: "Pitch-Bold", arial, helvetica, sans-serif;
+$italic: "Pitch-Medium-Italic", arial, helvetica, sans-serif;
+$italic-bold: "Pitch-BoldItalic", arial, helvetica, sans-serif;
