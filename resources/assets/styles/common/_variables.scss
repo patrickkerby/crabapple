@@ -17,11 +17,11 @@ $navbar-light-toggler-icon-bg: none;
 @font-face {
   font-family: "Pitch-Medium";
   font-display: block;
-  src: url ("../fonts/PitchWeb-Medium.eot");
+  src: url("../fonts/PitchWeb-Medium.eot");
   src:
-    url ("../fonts/PitchWeb-Medium.eot?#iefix") format("embedded-opentype"),
-    url ("../fonts/PitchWeb-Medium.woff2") format("woff2"),
-    url ("../fonts/PitchWeb-Medium.woff") format("woff");
+    url("../fonts/PitchWeb-Medium.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PitchWeb-Medium.woff2") format("woff2"),
+    url("../fonts/PitchWeb-Medium.woff") format("woff");
 }
 
 @font-face {
@@ -29,19 +29,29 @@ $navbar-light-toggler-icon-bg: none;
   font-display: block;
   src: url ("../fonts/PitchWeb-MediumItalic.eot");
   src:
-    url ("../fonts/PitchWeb-MediumItalic.eot?#iefix") format("embedded-opentype"),
-    url ("../fonts/PitchWeb-MediumItalic.woff2") format("woff2"),
-    url ("../fonts/PitchWeb-MediumItalic.woff") format("woff");
+    url("../fonts/PitchWeb-MediumItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PitchWeb-MediumItalic.woff2") format("woff2"),
+    url("../fonts/PitchWeb-MediumItalic.woff") format("woff");
 }
 
 @font-face {
   font-family: "Pitch-BoldItalic";
   font-display: block;
-  src: url ("../fonts/Pitch-BoldItalic.eot");
+  src: url("../fonts/PitchWeb-BoldItalic.eot");
   src:
-    url ("../fonts/PitchWeb-BoldItalic.eot?#iefix") format("embedded-opentype"),
-    url ("../fonts/PitchWeb-BoldItalic.woff2") format("woff2"),
-    url ("../fonts/PitchWeb-BoldItalic.woff") format("woff");
+    url("../fonts/PitchWeb-BoldItalic.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PitchWeb-BoldItalic.woff2") format("woff2"),
+    url("../fonts/PitchWeb-BoldItalic.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Pitch-Bold";
+  font-display: block;
+  src: url("../fonts/PitchWeb-Bold.eot");
+  src:
+    url("../fonts/PitchWeb-Bold.eot?#iefix") format("embedded-opentype"),
+    url("../fonts/PitchWeb-Bold.woff2") format("woff2"),
+    url("../fonts/PitchWeb-Bold.woff") format("woff");
 }
 
 $medium: "Pitch-Medium", arial, helvetica, sans-serif;
