@@ -18,6 +18,10 @@
   @extend .btn-secondary;
 }
 
+input {
+  border-radius: none !important;
+}
+
 .preorder {
   h3 {
     font-family: $medium;
