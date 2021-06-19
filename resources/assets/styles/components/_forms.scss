@@ -163,13 +163,14 @@ input {
   color: $light;
   font-size: 15px;
   text-align: center;
-  border-radius: 22px;
+  border-radius: 22px !important;
   height: 44px;
   display: flex;
   margin: 0 auto;
   font-family: $bold;
   border: none;
   padding: 0 2rem;
+  -webkit-border-radius: 22px !important;
 }
 
 .gform_confirmation_wrapper {
