@@ -19,7 +19,8 @@
 }
 
 input {
-  border-radius: none !important;
+  border-radius: 0 !important;
+  -webkit-border-radius: 0;
 }
 
 .preorder {
